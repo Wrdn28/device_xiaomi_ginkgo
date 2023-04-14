@@ -850,4 +850,7 @@
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
     <bool name="config_proximityCheckOnWake">true</bool>
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+    
+    <!-- Default values for LiveDisplay -->
+    <bool name="config_enableLiveDisplay">false</bool>
 </resources>
