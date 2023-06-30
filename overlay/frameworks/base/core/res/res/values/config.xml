@@ -842,7 +842,7 @@
     <!-- Package name of a telephony-related system app, such as an IMS service.
          Exempted from privacy indicators. -->
     <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
-    
+
     <!-- Does the battery LED support multiple colors?
          Used to decide if the user can change the colors -->
      <bool name="config_multiColorBatteryLed">false</bool>
@@ -871,4 +871,7 @@
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>me.waveproject.keyhandler.KeyHandler</item>
     </string-array>
+
+    <!-- Default value for performant auth feature. -->
+    <bool name="config_performantAuthDefault">true</bool>
 </resources>
