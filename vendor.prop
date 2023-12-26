@@ -153,6 +153,7 @@ persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
 ro.telephony.iwlan_operation_mode=legacy
 ro.vendor.use_data_netmgrd=true
+vendor.perf.framepacing.enable=1
 
 # Display
 debug.egl.hw=0
