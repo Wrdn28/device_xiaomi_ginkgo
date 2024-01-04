@@ -1815,6 +1815,28 @@ vendor/lib64/vendor.qti.hardware.vpp@1.1.so|3c03d83e1edc7d7e6b48c5d680efd50cd9e1
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so|a38c2961f2c2256da36ae917561dad0c85ac7110
 vendor/lib64/vendor.qti.hardware.vpp@1.3.so|b6e10f24e580e36478626fb755827010a8b018d6
 
+# Media (Dolby)
+-vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service|a5b407c13dc7348ce9d66ff71b22063fde803110
+vendor/etc/dolby/dax-default.xml|ff6106958d9fec85d1ffd175b219195403bb718c
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc|29296ebfe89b2697fec573be73cc3757fd97bed6
+vendor/etc/media_codecs_dolby_audio.xml|a794eb15fc198d0285510260025cd99b53fa174f
+vendor/etc/vintf/manifest/manifest_vendor.dolby.hardware.dms.xml|c8095f649de19b80271fb429b4b6b439297a0678
+-vendor/lib/libdapparamstorage.so|da1ee55c70a51c820f796ad1663e28b465304e2e
+-vendor/lib/libdeccfg.so|22594003b9f28f4c2aeeda484bb7ab8fbf0f67ea
+-vendor/lib/libstagefright_soft_ac4dec.so|564db26f99adc4b8a71473fc4dd9e95a5f2e3c50
+-vendor/lib/libstagefright_soft_ddpdec.so|29061ed62252311630438086ab854a2751a8f381
+-vendor/lib/soundfx/libswdap.so|810d0e266e4a77f06cba72fe8bdde2e1ede4f9f9
+-vendor/lib/soundfx/libswgamedap.so|c7d35eb932ecffb384ec62628404df3406b63919
+-vendor/lib/soundfx/libswvqe.so|3009202dcdd5b8fadb9c43a8cf5f0fe1c28311a6
+-vendor/lib64/soundfx/libswdap.so|e996ee1d421b3b2cf74f3f3ed93bff067d83dddb
+-vendor/lib64/soundfx/libswgamedap.so|c898fd5b51312c5fafa693ca037423c5bae23101
+-vendor/lib64/soundfx/libswvqe.so|08394e1ac285479213604c35cb144147fdac68c0
+-vendor/lib/vendor.dolby.hardware.dms@2.0.so|2bf537bbf5c413527e5c648b8e63b95f904f7532
+-vendor/lib64/libdapparamstorage.so|573c229a12b95151922c669301b34851444a8004
+-vendor/lib64/libdlbdsservice.so|518f4a7fa3dd4bb9d0ced70f81bb7711c66f5e38
+-vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so|e0bd781d13463f28dcc2bd05b37dfaebadecc95b
+-vendor/lib64/vendor.dolby.hardware.dms@2.0.so|2020b5fd9abac65520224069bbe75d5e76d3f158
+
 # Misys
 etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml
 etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml

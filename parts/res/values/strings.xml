@@ -136,4 +136,28 @@
     <!-- Help texts -->
     <string name="doze_settings_help_title">Help</string>
     <string name="doze_settings_help_text">These features use sensor events to launch a doze notification pulse. The chosen sensor is only enabled when the device receives a notification, this helps to reduce battery usage. There is also an option to enable the chosen sensor as soon as the screen turns off, this will cause higher battery usage.\n\nNOTE: The proximity sensor gestures may break deep sleep completely. Use them with caution.</string>
+
+    
+    <!-- Dolby Atmos -->
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_enable">Use Dolby Atmos</string>
+    <string name="dolby_profile_title">Choose a profile</string>
+    <string name="dolby_preset">Equalizer preset</string>
+    <string name="dolby_profile_dynamic">Dynamic</string>
+    <string name="dolby_off">Off</string>
+    <string name="dolby_on">On</string>
+    <string name="dolby_low">Low</string>
+    <string name="dolby_medium">Medium</string>
+    <string name="dolby_high">High</string>
+    <string name="dolby_max">Max</string>
+    <string name="dolby_unknown">Unknown</string>
+    <string name="dolby_on_with_profile">On (%1$s)</string>
+    <string name="dolby_category_settings">Settings</string>
+    <string name="dolby_bass_enhancer">Bass enhancer</string>
+    <string name="dolby_dialogue_enhancer">Dialogue enhancer</string>
+    <string name="dolby_virtualizer">Surround virtualizer</string>
+    <string name="dolby_volume_leveler">Volume leveler</string>
+    <string name="dolby_connect_headphones">Connect headphones</string>
+    <string name="dolby_reset_profile">Reset to defaults</string>
+    <string name="dolby_reset_profile_toast">Succesfully reset settings for %1$s profile</string>
 </resources>
